@@ -30,5 +30,59 @@
           "description": "This is too much",
           "lessons": 30
         }
-      ]
+      ],
+    "lecturers": [
+      {
+        "id": 1,
+        "name": "Prof. Jane Doe",
+        "title": "Expert in TypeScript",
+        "biography": "Jane has over a decade of experience teaching JavaScript and TypeScript. She focuses on simplifying complex programming concepts.",
+        "coursesTaught": [
+          {
+            "courseId": 1,
+            "courseTitle": "TypeScript Basic",
+            "lessons": 10
+          },
+          {
+            "courseId": 2,
+            "courseTitle": "JavaScript Basic",
+            "lessons": 90
+          }
+        ],
+        "yearsOfExperience": 12
+      },
+      {
+        "id": 2,
+        "name": "Dr. John Miller",
+        "title": "Senior Lecturer in .NET and Redux",
+        "biography": "John specializes in backend technologies and state management with Redux. He is known for his practical teaching approach.",
+        "coursesTaught": [
+          {
+            "courseId": 3,
+            "courseTitle": "Redux Basic",
+            "lessons": 15
+          },
+          {
+            "courseId": 4,
+            "courseTitle": ".NET Basic",
+            "lessons": 30
+          }
+        ],
+        "yearsOfExperience": 10
+      },
+      {
+        "id": 3,
+        "name": "Ms. Sarah Lee",
+        "title": "Web Development Lecturer",
+        "biography": "Sarah has been a professional web developer and instructor for over 8 years. She enjoys teaching practical courses to help students build real-world applications.",
+        "coursesTaught": [
+          {
+            "courseId": 5,
+            "courseTitle": "Blah blah",
+            "lessons": 10
+          }
+        ],
+        "yearsOfExperience": 8
+      }
+    ]
 }
